@@ -1,6 +1,7 @@
 .columns > div {
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
 
 .columns img {
@@ -21,7 +22,7 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+ /*  align-items: baseline; */
     flex-direction: unset;
     gap: 32px;
   }
@@ -30,4 +31,8 @@
     flex: 1;
     order: unset;
   }
+}
+
+.columns p {
+  text-align: justify;
 }
