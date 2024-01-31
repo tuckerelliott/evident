@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  /* background-color: var(--light-color); */
   font-size: var(--body-font-size-s);
   text-align: center;
 }
@@ -12,4 +12,17 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  padding: 0 !important;
+  font-size: 16px !important;
+  line-height: 1.8em !important;
+}
+
+footer .footer a:any-link{
+  color: #000;
+  margin-left: 20px;
+}
+
+footer .footer img {
+  margin-left: 20px;
+  vertical-align: middle;
 }
